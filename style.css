@@ -1,0 +1,78 @@
+/*Comfortaa font "Code copied from google fonts"*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+  margin: 10px;
+  background: no-repeat linear-gradient(purple, black);
+  background-size: cover;
+  font-family: comfortaa;
+  height: 100%;
+  /*Idk why did I do it like this tbh "But it works and I shouldn't mess with it 😶" */
+  color: white;
+}
+p {
+  margin: 2rem;
+}
+h4 {
+  position: relative;
+  right: 20px;
+}
+a {
+  color: rgb(24, 220, 164);
+  cursor: pointer;
+}
+.two-sided-divs {
+  display: flex;
+}
+
+ol {
+  margin-left: 2rem;
+  line-height: 2rem;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 15px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+.resources {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 800px) {
+  .resources {
+    display: grid;
+  }
+  table {
+    height: 500px;
+  }
+}
