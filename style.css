@@ -1,0 +1,116 @@
+/*Comfortaa font "Code copied from google fonts"*/
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  justify-content: center;
+  /* padding: 10px;
+  margin: 10px; */
+  background: no-repeat linear-gradient(purple, black);
+  background-size: cover;
+  font-family: comfortaa;
+  height: 100%;
+  /*Idk why did I do it like this tbh "But it works and I shouldn't mess with it 😶" */
+  color: white;
+  overflow-x: hidden;
+}
+p {
+  margin: 2rem;
+}
+h4 {
+  position: relative;
+  right: 20px;
+}
+a {
+  color: rgb(24, 220, 164);
+  cursor: pointer;
+}
+.two-sided-divs {
+  display: flex;
+}
+iframe {
+  height: 400px;
+}
+ol {
+  margin-left: 2rem;
+  line-height: 2rem;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin: 15px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+nav {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 2px;
+  border-bottom: 1px rgb(71, 197, 199) solid;
+  height: 2rem;
+  border-top: none;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-left: 22px;
+}
+.resources {
+  display: flex;
+  justify-content: center;
+}
+
+.two-sides {
+  display: flex;
+  margin-top: -35px;
+  gap: 50px;
+}
+nav a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 986px) {
+  * {
+    width: 100%;
+  }
+  .resources,
+  .two-sides {
+    display: block;
+  }
+  .activities {
+    margin-top: 4rem;
+  }
+  table {
+    height: 500px;
+  }
+}
