@@ -16,6 +16,8 @@ body {
   /*Idk why did I do it like this tbh "But it works and I shouldn't mess with it 😶" */
   color: white;
   overflow-x: hidden;
+}.resources{
+  margin-top:2.5rem;
 }
 p {
   margin: 2rem;
