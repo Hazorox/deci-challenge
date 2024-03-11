@@ -105,6 +105,8 @@ nav a {
 @media screen and (max-width: 986px) {
   * {
     width: 100%;
+  }body{
+    height:100%;
   }
   .resources,
   .two-sides {
